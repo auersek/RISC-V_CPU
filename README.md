@@ -2,7 +2,7 @@
 
 This project focused on designing and implementing a fully functional pipelined RISC-V CPU with cache in SystemVerilog. The goal was to create a processor capable of executing the RV32I instruction set while maintaining high performance and efficient hazard handling.
 
-To improve throughput, I incorporated a five-stage pipeline—Fetch, Decode, Execute, Memory, and Write-Back—allowing the CPU to process multiple instructions simultaneously instead of sequentially. Clocked flip-flops were placed between each pipeline stage to synchronize signal flow and ensure proper timing, as shown below.
+To improve throughput, I incorporated a five-stage pipeline (Fetch, Decode, Execute, Memory, and Write-Back) allowing the CPU to process multiple instructions simultaneously instead of sequentially. Clocked flip-flops were placed between each pipeline stage to synchronize signal flow and ensure proper timing, as shown below.
 
 
 <img src="https://github.com/auersek/Portfolio/blob/main/Images/Screen%20Shot%202025-03-28%20at%206.12.54%20PM.jpg" width="850" height="550" alt="Pipeline 5 stages passed">
